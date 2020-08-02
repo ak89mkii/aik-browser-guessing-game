@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Press Start 2P';
+    background-color: grey;
+}
+#prevGuesses {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.guess {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+}
+
+#guessInput {
+    text-align: center;
+    background-color: black;
+    padding: 15px 32px; 
+    display: inline-block;
+    font-size: 18px;
+    color:white;
+    border-width: 5px; 
+    border-color: white;
+    border-radius: 10px;
+}
+
+#initiateGuess {
+    text-align: center;
+    background-color: black;
+    padding: 15px 32px; 
+    display: inline-block;
+    font-size: 18px;
+    color:white;
+    border: none; 
+    border-radius: 20px;
+}
+
+.rSButton {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    padding: 15px 32px; 
+    display: inline-block;
+    font-size: 18px;
+    color:white;
+    border: none; 
+    border-radius: 20px;
+    width: 150px;
+}
+
+iframe { 
+    border-width: 5px; 
+    border-color: white;
+    border-radius: 10px;
+}
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.winner {
+    color: green;
+}
